@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jitet/kelopak-bunga/issues"
   },
-  "homepage": "https://github.com/jitet/kelopak-bunga#readme"
+  "homepage": "https://github.com/jitet/kelopak-bunga#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.6"
+  }
 }

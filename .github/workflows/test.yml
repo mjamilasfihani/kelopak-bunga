@@ -1,4 +1,4 @@
-name: stylelinter
+name: Test
 on: [push]
 
 jobs:

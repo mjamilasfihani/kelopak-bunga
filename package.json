@@ -1,0 +1,23 @@
+{
+  "name": "kelopak-bunga",
+  "version": "1.0.0",
+  "description": "KelopakBunga is user interface based on Tailwind 3.x",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jitet/kelopak-bunga.git"
+  },
+  "keywords": [],
+  "author": "Jitet ITC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jitet/kelopak-bunga/issues"
+  },
+  "homepage": "https://github.com/jitet/kelopak-bunga#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.6"
+  }
+}

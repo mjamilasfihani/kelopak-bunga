@@ -1,1 +1,66 @@
 /** KelopakBunga's Component */
+@layer components
+{
+    /** Button Base */
+    button.btn
+    {
+        @apply border border-zinc-100 py-1.5 px-2.5 text-base;
+    }
+
+    /** Button Variant */
+    .btn.btn-primary
+    {
+        @apply bg-blue-500 hover:bg-blue-600 text-white;
+    }
+
+    .btn.btn-secondary
+    {
+        @apply bg-indigo-500 hover:bg-indigo-600 text-white;
+    }
+    
+    .btn.btn-success
+    {
+        @apply bg-green-500 hover:bg-green-600 text-white;
+    }
+    
+    .btn.btn-danger
+    {
+        @apply bg-red-500 hover:bg-red-600 text-white;
+    }
+    
+    .btn.btn-warning
+    {
+        @apply bg-amber-500 hover:bg-amber-600;
+    }
+    
+    .btn.btn-info
+    {
+        @apply bg-cyan-500 hover:bg-cyan-600;
+    }
+    
+    .btn.btn-light
+    {
+        @apply bg-neutral-100 hover:bg-neutral-200;
+    }
+    
+    .btn.btn-dark
+    { 
+        @apply bg-neutral-600 hover:bg-neutral-500 text-white;
+    }
+
+    .btn.btn-link
+    {
+        @apply border-none rounded-none text-sky-600 hover:text-sky-700 underline;
+    }
+
+    /** Button Size */
+    .btn.btn-sm
+    {
+        @apply py-1 px-2 text-sm;
+    }
+    
+    .btn.btn-lg
+    {
+        @apply py-2 px-3 text-lg;
+    }
+}
